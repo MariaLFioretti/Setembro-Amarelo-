@@ -1,4 +1,48 @@
+
 h1{
-    color:rgb(243, 192, 23)
+    display: flex;
+    justify-content: center;
+    color:rgb(243, 192, 23);
+    font-size: 3rem;
 }
+
+h3{
+    display: flex;
+    color:rgb(243, 192, 23);
+    align-items: center;
+}
+
+article{
+    align-items: center;
+    font-size: 20px
+}
+    
+
+h4{
+    color:rgb(243, 192, 23);
+    display: flex;
+
+}
+
+#apresentacao{
+        display: flex;
+        align-content: center;
+        left: 10% ;
+        top: 10%;
+        font-size:1rem;
+}
+
+
+#setembroAmarelo{
+    width:100px;
+    height:100px ;
+}
+
+#apresentacao{
+    width:400x;
+    height:400px ;
+}
+
+
+
 
