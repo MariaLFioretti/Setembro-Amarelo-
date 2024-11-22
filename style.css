@@ -1,3 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    background-color: beige;
+    flex-direction: column;
+}
 
 h1{
     display: flex;
@@ -21,17 +32,7 @@ article{
 h4{
     color:rgb(243, 192, 23);
     display: flex;
-
 }
-
-#apresentacao{
-        display: flex;
-        align-content: center;
-        left: 10% ;
-        top: 10%;
-        font-size:1rem;
-}
-
 
 #setembroAmarelo{
     width:100px;
@@ -43,6 +44,54 @@ h4{
     height:400px ;
 }
 
+main{
+    width: 80vw;
+    background-color: white;
+}
 
+#introducao{
+    margin: 30px;
+    display: flex;
+}
 
+#desenvolvimento{
+    margin: 30px;
+    display: flex;
+}
 
+#conclusao{
+    margin: 30px;
+    display: flex;
+}
+
+.formatoImagem{
+    height: 200px;
+    width: 280px;
+}
+
+.formatoTexto{
+    text-align: justify;
+}
+
+.formatoArtigo{
+    margin-left: 30px;
+}
+
+main{
+    height: calc(100vh - 30px);
+}
+
+footer{
+    display: flex;
+    background-color: gold;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 100vw;
+}
+
+button{
+    background-color:rgb(250, 248, 215);
+    color:black
+
+}
