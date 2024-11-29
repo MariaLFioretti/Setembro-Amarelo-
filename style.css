@@ -1,99 +1,16 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
-body{
-    display: flex;
-    align-items: center;
-    background-color: beige;
-    flex-direction: column;
-}
-
-h1{
-    display: flex;
-    justify-content: center;
-    color:rgb(243, 192, 23);
-    font-size: 3rem;
-}
-
-h3{
-    display: flex;
-    color:rgb(243, 192, 23);
-    align-items: center;
-}
-
-article{
-    align-items: center;
-    font-size: 20px
-}
+#div1{ 
     
-
-h4{
-    color:rgb(243, 192, 23);
     display: flex;
-}
-
-#setembroAmarelo{
-    width:100px;
-    height:100px ;
-}
-
-#apresentacao{
-    width:400x;
-    height:400px ;
-}
-
-main{
-    width: 80vw;
-    background-color: white;
-}
-
-#introducao{
-    margin: 30px;
-    display: flex;
-}
-
-#desenvolvimento{
-    margin: 30px;
-    display: flex;
-}
-
-#conclusao{
-    margin: 30px;
-    display: flex;
-}
-
-.formatoImagem{
-    height: 200px;
-    width: 280px;
-}
-
-.formatoTexto{
-    text-align: justify;
-    font-family: Arial,sans-serif;
-    
-}
-
-.formatoArtigo{
-    margin-left: 30px;
-}
-
-main{
-    height: calc(100vh - 30px);
-}
-
-footer{
-    display: flex;
-    background-color: gold;
-    align-items: center;
+    width: 1875px;
+    height: 1000px;
+    background-color: rgb(255, 221, 29);
+    border-radius: 10px;
     justify-content: center;
-    height: 30px;
-    width: 100vw;
-}
-
-button{
-    background-color:rgb(250, 248, 215);
-    color:black
+    align-items: center;
+    margin: 10px;
 
 }
+
+
+
+  
